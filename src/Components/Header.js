@@ -4,7 +4,9 @@ import React, { useState, useRef } from "react";
 export default function Header() {
   function openNav() {
     document.getElementById("myNav").style.width = "100%";
-    //  document.body.style.overFlow ="hidden"
+    //  document.body.style.overflow ="hidden"
+    
+
   }
 
   function closeNav() {
@@ -86,7 +88,7 @@ export default function Header() {
 
         {/* div.mobilie-version */}
         <div className="menubar-outer w-f d-flx-jc-cen">
-          <div className=" w-90">
+          <div className=" out w-90">
             <div className="menubar w-90 d-flx-jc-sb">
               <div className="menubar-left d-flx-jc-sb">
                 <span
@@ -197,3 +199,4 @@ export default function Header() {
     </div>
   );
 }
+

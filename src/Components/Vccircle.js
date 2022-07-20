@@ -51,7 +51,7 @@ export default function Vccircle() {
               );
             })}
           </div>
-          <div className="w-f d-flx-jc-cen">
+          <div className=" d-flx-jc-cen">
             <button className="mobile-btn">SUBSCRIBE</button>
           </div>
           <div className="btns">

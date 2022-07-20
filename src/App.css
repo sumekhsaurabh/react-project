@@ -1509,6 +1509,9 @@ html {
   .copyright{
     margin-top: 16px;
   }
+  .out{
+    width: 90vw !important ;
+  }
 }
 
 @media screen and (min-width: 540px) and (max-width: 720px) {
