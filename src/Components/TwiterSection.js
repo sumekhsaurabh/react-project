@@ -8,7 +8,7 @@ export default function TwiterSection() {
         <div className="twit-inner w-90 d-flx-jc-sb">
           <div className="twit-box-1">
             <div>
-              <img src="./imagesss/twitter-section-image-1.png" alt="" />
+              <img src="./Imagesss/twitter-section-image-1.png" alt="" />
             </div>
             <p className="twit-box-1-caption">
               VCCircle.com <br /> World Bank arm IFC to double down its
@@ -18,7 +18,7 @@ export default function TwiterSection() {
           <div className="twit-box-2">
             <p className="twit-box-2-title">Infographic</p>
             <div className="twit-box-2-inner">
-              <img src="./imagesss/twitter-section-image-2.png" alt="" />
+              <img src="./Imagesss/twitter-section-image-2.png" alt="" />
             </div>
           </div>
           <div className="twit-box-3">
@@ -29,7 +29,7 @@ export default function TwiterSection() {
                     <div className="d-flx-jc-cen">
                       <div className="editor-smallAdver-heading">Advertisement</div>
                     </div>
-                    <img src="./imagesss/sudhir.png" alt="" />
+                    <img src="./Imagesss/sudhir.png" alt="" />
                   </div>
                 </div>
               </div> 

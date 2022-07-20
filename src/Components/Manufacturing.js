@@ -55,7 +55,7 @@ export default function Manufacturing() {
             </div>
           </div>
           <div className="sittu-right">
-          <img src="./imagesss/manufacture.png" alt="" />
+          <img src="./Imagesss/manufacture.png" alt="" />
         </div>
         </div>
         

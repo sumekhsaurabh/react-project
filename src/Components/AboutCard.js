@@ -54,10 +54,10 @@ function AboutCard(props) {
         </div>
         <div className="btns">
           <button onClick={handleLeftClick} id="btns-1" className="dis-none">
-            <img src="./imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style"/>
+            <img src="./Imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style"/>
           </button>
           <button onClick={handleRightClick} id="btns-2" className="dis-none">
-            <img src="./imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style"/>
+            <img src="./Imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style"/>
           </button>
         </div>
         <div className="About-line w-90" style={props.display}></div>

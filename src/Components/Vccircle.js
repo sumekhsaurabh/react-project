@@ -23,7 +23,7 @@ export default function Vccircle() {
           <div className="About-card d-flx-jc-sb">
             <h3 className="limited-partner color">
               VCCircle Premium
-              <img src="./imagesss/crown.png" alt="" />
+              <img src="./Imagesss/crown.png" alt="" />
             </h3>
             <button className="primium-subscribe-btn">SUBSCRIBE</button>
           </div>
@@ -56,10 +56,10 @@ export default function Vccircle() {
           </div>
           <div className="btns">
             <button onClick={handleLeftClick} id="btns-1" className="dis-none">
-              <img src="./imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style" />
+              <img src="./Imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style" />
             </button>
             <button onClick={handleRightClick} id="btns-2" className="dis-none">
-              <img src="./imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style" />
+              <img src="./Imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style" />
             </button>
           </div>
         </div>

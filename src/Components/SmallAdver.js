@@ -20,7 +20,7 @@ export default function SmallAdver(props) {
           <div className="d-flx-jc-cen">
             <div className="smallAdver-heading">Advertisement</div>
           </div>
-          <img src="./imagesss/sudhir.png" alt="" />
+          <img src="./Imagesss/sudhir.png" alt="" />
         </div>
       </div>
       </div>

@@ -82,7 +82,7 @@ export default function Editor(props) {
                         Advertisement
                       </div>
                     </div>
-                    <img src="./imagesss/sudhir.png" alt="" />
+                    <img src="./Imagesss/sudhir.png" alt="" />
                   </div>
                 </div>
               </div>

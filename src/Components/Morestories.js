@@ -11,7 +11,7 @@ export default function Morestories(props) {
           <div className="more-story-content w-90 d-flx-jc-sb">
             <div className="story-left">
               <div className="finnance-section d-flx">
-                <img src="./imagesss/story-left-1.png" alt="" />
+                <img src="./Imagesss/story-left-1.png" alt="" />
                 <div className="finance-content">
                   <h4 className="finance-content-title">finance</h4>
                   <p className="finance-content-para">
@@ -29,7 +29,7 @@ export default function Morestories(props) {
               </div>
 
               <div className="finnance-section d-flx">
-                <img src="./imagesss/story-left-2.png" alt="" />
+                <img src="./Imagesss/story-left-2.png" alt="" />
                 <div className="finance-content">
                   <h4 className="finance-content-title">CONSUMER</h4>
                   <p className="finance-content-para">
@@ -47,7 +47,7 @@ export default function Morestories(props) {
               </div>
 
               <div className="finnance-section d-flx">
-                <img src="./imagesss/story-left-3.png" alt="" />
+                <img src="./Imagesss/story-left-3.png" alt="" />
                 <div className="finance-content">
                   <h4 className="finance-content-title">PEOPLE</h4>
                   <p className="finance-content-para">
@@ -66,7 +66,7 @@ export default function Morestories(props) {
             </div>
             <div className="story-right">
               <div className="finnance-section d-flx">
-                <img src="./imagesss/story-right-1.png" alt="" />
+                <img src="./Imagesss/story-right-1.png" alt="" />
                 <div className="finance-content">
                   <h4 className="finance-content-title">ECONOMY</h4>
                   <p className="finance-content-para">
@@ -84,7 +84,7 @@ export default function Morestories(props) {
               </div>
 
               <div className="finnance-section d-flx">
-                <img src="./imagesss/story-right-2.png" alt="" />
+                <img src="./Imagesss/story-right-2.png" alt="" />
                 <div className="finance-content">
                   <h4 className="finance-content-title">TMT</h4>
                   <p className="finance-content-para">
@@ -102,7 +102,7 @@ export default function Morestories(props) {
               </div>
 
               <div className="finnance-section d-flx">
-                <img src="./imagesss/story-right-3.png" alt="" />
+                <img src="./Imagesss/story-right-3.png" alt="" />
                 <div className="finance-content">
                   <h4 className="finance-content-title">FINANCE</h4>
                   <p className="finance-content-para">
@@ -122,7 +122,7 @@ export default function Morestories(props) {
           </div>
         </div>
       </div>.
-      <Advertisement src={'./imagesss/adver1.png'} style={{width:'80%'}}/>
+      <Advertisement src={'./Imagesss/adver1.png'} style={{width:'80%'}}/>
       {/* lower-section-- */}
       <div className="more-story-lower">
         <div className="more-story w-f d-flx-jc-cen">
@@ -131,7 +131,7 @@ export default function Morestories(props) {
             <div className="more-story-content w-90 d-flx-jc-sb">
               <div className="story-left">
                 <div className="finnance-section d-flx">
-                  <img src="./imagesss/story-b-left-1.png" alt="" />
+                  <img src="./Imagesss/story-b-left-1.png" alt="" />
                   <div className="finance-content">
                     <h4 className="finance-content-title">CONSUMER</h4>
                     <p className="finance-content-para">
@@ -149,7 +149,7 @@ export default function Morestories(props) {
                 </div>
 
                 <div className="finnance-section d-flx">
-                  <img src="./imagesss/story-b-left-2.png" alt="" />
+                  <img src="./Imagesss/story-b-left-2.png" alt="" />
                   <div className="finance-content">
                     <h4 className="finance-content-title">ECONOMY</h4>
                     <p className="finance-content-para">
@@ -167,7 +167,7 @@ export default function Morestories(props) {
                 </div>
 
                 <div className="finnance-section d-flx">
-                  <img src="./imagesss/story-b-left-3.png" alt="" />
+                  <img src="./Imagesss/story-b-left-3.png" alt="" />
                   <div className="finance-content">
                     <h4 className="finance-content-title">CONSUMER</h4>
                     <p className="finance-content-para">
@@ -186,7 +186,7 @@ export default function Morestories(props) {
               </div>
               <div className="story-right">
                 <div className="finnance-section d-flx">
-                  <img src="./imagesss/story-b-right-1.png" alt="" />
+                  <img src="./Imagesss/story-b-right-1.png" alt="" />
                   <div className="finance-content">
                     <h4 className="finance-content-title">INFRASTRUCTURE</h4>
                     <p className="finance-content-para">
@@ -204,7 +204,7 @@ export default function Morestories(props) {
                 </div>
 
                 <div className="finnance-section d-flx">
-                  <img src="./imagesss/story-b-right-2.png" alt="" />
+                  <img src="./Imagesss/story-b-right-2.png" alt="" />
                   <div className="finance-content">
                     <h4 className="finance-content-title">HEALTHCARE</h4>
                     <p className="finance-content-para">
@@ -222,7 +222,7 @@ export default function Morestories(props) {
                 </div>
 
                 <div className="finnance-section d-flx">
-                  <img src="./imagesss/story-b-right-3.png" alt="" />
+                  <img src="./Imagesss/story-b-right-3.png" alt="" />
                   <div className="finance-content">
                     <h4 className="finance-content-title">FINANCE</h4>
                     <p className="finance-content-para">

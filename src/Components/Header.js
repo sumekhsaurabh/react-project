@@ -18,21 +18,21 @@ export default function Header() {
           <div className="w-90">
             <div className="larg-header">
               <div className="header-top w-90 d-flx-jc-sb">
-                <img src="./imagesss/vccircle.png" alt="" />
+                <img src="./Imagesss/vccircle.png" alt="" />
                 <div className="social-icon ">
                   <ul className="d-flx-jc-sa">
                     <li>
                       {" "}
-                      <img src="./imagesss/search.png" alt="" /> Search
+                      <img src="./Imagesss/search.png" alt="" /> Search
                     </li>
                     <li>
                       {" "}
-                      <img src="./imagesss/crown.png" alt="" />
+                      <img src="./Imagesss/crown.png" alt="" />
                       Subscribe
                     </li>
                     <li>
                       {" "}
-                      <img src="./imagesss/sign.png" alt="" />
+                      <img src="./Imagesss/sign.png" alt="" />
                       Sign In
                     </li>
                   </ul>
@@ -48,7 +48,7 @@ export default function Header() {
                       <li>
                         Industry
                         <img
-                          src="./imagesss/drop.png"
+                          src="./Imagesss/drop.png"
                           alt=""
                           style={{
                             height: "6px",
@@ -68,7 +68,7 @@ export default function Header() {
                   <p>
                     Customize{" "}
                     <img
-                      src="./imagesss/drop.png"
+                      src="./Imagesss/drop.png"
                       alt=""
                       style={{
                         height: "6px",
@@ -100,13 +100,13 @@ export default function Header() {
                 >
                   &#9776;
                 </span>
-                <img src="./imagesss/vccircle.png" alt="" />
+                <img src="./Imagesss/vccircle.png" alt="" />
               </div>
 
               <div className="menubar-right">
                 <div className="menubar-right-content">
                   <img
-                    src="./imagesss/crown.png"
+                    src="./Imagesss/crown.png"
                     alt=""
                     className="menubar-right-img"
                   />{" "}
@@ -124,7 +124,7 @@ export default function Header() {
                     &times;
                   </a>
                   <img
-                    src="./imagesss/vccircle.png"
+                    src="./Imagesss/vccircle.png"
                     alt=""
                     className="slider-logo"
                   />
@@ -156,7 +156,7 @@ export default function Header() {
                         subscribe
                       </a>{" "}
                       <img
-                        src="./imagesss/crown.png"
+                        src="./Imagesss/crown.png"
                         alt=""
                         style={{ display: "inline-block" }}
                       />

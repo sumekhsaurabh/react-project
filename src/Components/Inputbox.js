@@ -22,7 +22,7 @@ export default function Inputbox() {
                 style={{ width: "100%" }}
               >
                 <img
-                  src="./imagesss/envelope.png"
+                  src="./Imagesss/envelope.png"
                   alt=""
                   className="input-envlp"
                 />

@@ -7,12 +7,12 @@ export default function Footer() {
       <div
         className="footer w-f">
         <div className="footer-title w-f d-flx-jc-cen">
-          <img src="./imagesss/footer-heading.png" alt="" />
+          <img src="./Imagesss/footer-heading.png" alt="" />
         </div>
         <div className="footer-social-media w-f d-flx-jc-cen">
-          <img src="./imagesss/facebook.png" alt="" />
-          <img className="footer-twiter" src="./imagesss/twitter.png" alt="" />
-          <img src="./imagesss/linkedin.png" alt="" />
+          <img src="./Imagesss/facebook.png" alt="" />
+          <img className="footer-twiter" src="./Imagesss/twitter.png" alt="" />
+          <img src="./Imagesss/linkedin.png" alt="" />
         </div>
         <div className="footer-nav  d-flx-jc-cen">
           <ul className="d-flex">
