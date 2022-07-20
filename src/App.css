@@ -904,7 +904,7 @@ html {
 
 
 /* header-- */
-.header-container {}
+
 
 .header-container-inner {
   height: 176px;
@@ -1041,12 +1041,6 @@ html {
 #openbtn {
   float: left;
 }
-
-/* table-start */
-.overlay-content {
-  /* background-color: #d21a1a; */
-}
-
 
 
 @media screen and (max-height: 450px) {
@@ -1668,9 +1662,7 @@ html {
     display: block;
   }
 
-  .editor-3 {
-    /* margin: auto; */
-  }
+ 
   
   .twit-box-1 {
     margin: auto;
@@ -1756,11 +1748,7 @@ html {
     display: none;
   }
 
-  .destop-version {
-    /* display: none; */
-    /* display: block !; */
-  }
-
+ 
   .smallAdver {
     display: block;
     margin: auto;
@@ -1838,18 +1826,7 @@ html {
   box-shadow: 0px 5px 11px #888888;
   /* position: relative; */
 }
-.ck{
-  /* position: absolute; */
-  /* left: 50%;
-  top: 20px; */
-  /* margin-left: 260px; */
-  
-}
-/* th, td {
-  border-bottom:1px solid black;
-  box-shadow: 0px 5px 8px #888888;
- 
-} */
+
 .slider a{
   margin-left: 30px;
 }
@@ -1889,7 +1866,4 @@ html {
   color: #798692;
   font-weight: 500;
   padding-left: 0px;
-}
-.response{
-  /* display: none; */
 }

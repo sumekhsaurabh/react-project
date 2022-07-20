@@ -8,6 +8,7 @@ export default function Vccircle() {
   const handleLeftClick = (e) => {
     e.preventDefault();
     carousel.current.scrollLeft -= carousel.current.offsetWidth;
+    
   };
   const handleRightClick = (e) => {
     e.preventDefault();
