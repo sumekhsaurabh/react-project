@@ -115,7 +115,7 @@ html {
 .update {
   margin: 15px 0px 0px 0px;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 12px;
   color: #798692;
   font-weight: 500;
 }
@@ -189,7 +189,8 @@ html {
 
 .editor-1 {
   width: 372px;
-  margin: 40px 0px 0px 0px;
+  /* margin: 0px 0px 0px 0px; */
+  padding: 20px 0px 0px 0px;
   position: relative;
 }
 
@@ -204,15 +205,14 @@ html {
   height: 341px;
   border-color: #E3E3E3;
   border-style: none solid none none;
-  margin: 40px 0px 0px 0px;
-  padding-left: 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 }
 
 .editor-3 {
   width: 300px;
   height: 300px;
-  /* border: 1px solid red; */
-  margin: 40px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 }
 
 .editer-2-box-1-content {
@@ -224,7 +224,7 @@ html {
   font-weight: 700;
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: -10px;
+  margin-bottom: 0px;
 }
 
 .edit-heading {
@@ -245,7 +245,7 @@ html {
 
 .editer-2-box-1 {
   height: 108px;
-  width: 417px;
+  /* width: 417px; */
   border-color: #E3E3E3;
   border-style: none none solid none;
   margin-top: 5px;
@@ -289,7 +289,7 @@ html {
 }
 
 .second {
-  padding: 0px 0px 0px 25px;
+  padding-right: 20px;
   margin-right: 26px;
 
 }
@@ -341,7 +341,7 @@ html {
 .container-body {
   display: flex;
   justify-content: center;
-  margin: 40px 0px 40px 0px;
+  margin: 30px 0px 30px 0px;
 }
 
 
@@ -445,7 +445,7 @@ html {
   font-size: 2.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  margin-bottom: 2.5rem;
+  margin-bottom: 16px;
   color: #000000;
 }
 
@@ -464,7 +464,7 @@ html {
   height: 1px;
   border: 1px solid #F0F0F0;
   background-color: #F0F0F0;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .about-premium{
   position: absolute;
@@ -490,7 +490,7 @@ html {
 .main-container {
   max-width: 90vw;
   position: relative;
-  padding: 40px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .main-container .carousel {
@@ -811,7 +811,6 @@ html {
   height: auto;
   flex: 1 1 400px;
 }
-
 .story-right {
   width: 568px;
   height: auto;
@@ -1079,7 +1078,7 @@ html {
 }
 
 .menubar-right-text {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 500;
   padding: 0px 0px 0px 11x;
 }
@@ -1094,6 +1093,7 @@ html {
 .footer {
   height: 292px;
   background-color: #000000;
+  top: 40px;
 }
 
 .footer-title img {
@@ -1197,7 +1197,7 @@ html {
   padding-left: 20px;
 }
 
-.sittu-title {
+ .sittu-title{
   color: #096FFA;
   /* font-size: 1.6rem; */
   font-size: 16px;
@@ -1399,7 +1399,6 @@ html {
 
   .editor-3 {
     margin: auto;
-    margin-top: 40px;
   }
 
   .finance-content-para {
@@ -1441,6 +1440,7 @@ html {
     margin: auto;
 
   }
+  
   .nav-left {
     width: 78%;
   }
@@ -1466,21 +1466,25 @@ html {
 
   }
 
-  .editer-2 {
+  .editor-2 {
     width: auto;
     margin-left: 0px;
     border-style: none none none none;
+    margin: auto;
+    padding-left: 30px;
   }
 
-  .editer-2-box-1-para {
-    font-size: 16px;
-    line-height: 24px;
+  .editor-1 {
+    margin: auto;
   }
+  .editer-2-box-1-para {
+    line-height: 21px;
+    margin: 4px 0px 0px 0px;
+}
 
   .editor-3 {
     /* display:'none' */
     margin: auto;
-    margin-top: 40px;
   }
 
   .twit-box-1 {
@@ -1497,7 +1501,7 @@ html {
   }
 
   .editor-container-title {
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
   }
 
   .envlp-para {
@@ -1530,18 +1534,35 @@ html {
   .header-container-inner {
     display: none;
   }
+  .sittu-title{
+    font-size: 10px;
+  }
+  .sittu-heading{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .sittu-para{
+    font-size: 14px;
+    line-height: 26px;
+  }
+  
 
   .editor-3 {
-    /* display: none; */
-    margin: auto;
+    margin: auto; 
+  }
+  .editor-1 {
+    margin: auto; 
   }
 
   .editor-2 {
-    margin-top: 40px;
-    padding-left: 0px;
-    width: auto;
+    margin: auto;
+    /* width: auto; */
     border-style: none none none none;
   }
+  .editer-2-box-1-para {
+    line-height: 21px;
+    margin: 4px 0px 0px 0px;
+}
 
   .twit-box-3 {
     margin: auto;
@@ -1559,7 +1580,7 @@ html {
   }
 
   .editor-container-title {
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
   }
 
   .input-left {
@@ -1664,6 +1685,17 @@ html {
   .menubar-outer {
     display: block;
   }
+  .sittu-title{
+    font-size: 10px;
+  }
+  .sittu-heading{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .sittu-para{
+    font-size: 14px;
+    line-height: 26px;
+  }
 
  
   
@@ -1673,10 +1705,21 @@ html {
   }
 
   .editor-2 {
-    margin-top: 40px;
     width: auto;
     border-style: none none none none;
-    padding-left: 0px;
+  }
+  .editor-3{
+    margin: auto;
+    margin-top: 30px;
+  }
+  .editer-2-box-1-para {
+    line-height: 16px;
+    font-weight: 500;
+    margin: 2px 0px 0px 0px;
+}
+  .editor-update{
+    margin: 3px 0px 0px 0px;
+    font-size: 12px;
   }
 
   .twit-box-3 {
@@ -1699,7 +1742,7 @@ html {
   }
 
   .editor-container-title {
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
   }
 
   .input-left {
@@ -1870,3 +1913,8 @@ html {
   font-weight: 500;
   padding-left: 0px;
 }
+
+
+
+
+

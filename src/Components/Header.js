@@ -4,14 +4,12 @@ import React, { useState, useRef } from "react";
 export default function Header() {
   function openNav() {
     document.getElementById("myNav").style.width = "100%";
-    //  document.body.style.overflow ="hidden"
-    
-
   }
 
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+
 
   return (
     <div>
@@ -87,6 +85,9 @@ export default function Header() {
         </div>
 
         {/* div.mobilie-version */}
+        
+             
+
         <div className="menubar-outer w-f d-flx-jc-cen">
           <div className=" out w-90">
             <div className="menubar w-90 d-flx-jc-sb">
@@ -117,7 +118,7 @@ export default function Header() {
               </div>
               <div id="myNav" className="overlay">
                 <div className="border">
-                  {/*  */}
+                  {}
                   <a
                     href="javascript:void(0)"
                     className="closebtn"
@@ -192,11 +193,10 @@ export default function Header() {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
 
         {/* mobile-version-end */}
       </div>
     </div>
   );
 }
-

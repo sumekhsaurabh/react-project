@@ -2,14 +2,13 @@ import React, {useState } from "react";
 
 export default function Inputbox() {
   const[data, setData]= useState("")
-  function getvalue(){
-    // e.preventDefault()
-    console.log(data)
-    setData("")
+  function getdata(e) {
+    e.preventDefault();
+    console.log(data);
+    // clearing the values
+    setData("");
+    
   }
-  // function value(e){
-  //   setData(e.target.value)
-  // }
   
   return (
     <div>
@@ -40,12 +39,12 @@ export default function Inputbox() {
               >
                 <input
                   type="text"
-                  name=""
-                  id=""
+                  name="input"
+                  id="input"
                   className="input-field"
-                  placeholder="Email  Address" onChange={(e)=>setData(e.target.value)}                />
+                  placeholder="Email  Address" onChange={(e) => setData(e.target.value)}              />
 
-                <button className="sign-btn" onClick={getvalue}>SIGN UP</button>
+                <button className="sign-btn" onClick={getdata}>SIGN UP</button>
               </div>
             </div>
           </div>
