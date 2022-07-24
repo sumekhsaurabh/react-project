@@ -102,7 +102,7 @@ export default function Card() {
                 style={{ paddingLeft: "5px" }}
               >
                 <div className="top-card-1-title">
-                  <h3>ECONOMYs</h3>
+                  <h3>ECONOMY</h3>
                 </div>
                 <p className="top-card-1-para">
                   Indian shares snap 5-day rally on weak global cues, post
@@ -131,11 +131,11 @@ export default function Card() {
                   style={{ paddingLeft: "5px" }}
                 >
                   <div className="top-card-1-title">
-                    <h3>ECONOMYss</h3>
+                    <h3>FINANCE</h3>
                   </div>
                   <p className="top-card-1-para">
-                    Indian shares snap 5-day rally on weak global cues, post
-                    weekly gain
+                    Paytm to shut Canada B2C app amid eroding market
+                    capitalisation
                   </p>
                   <div className="updaters">
                     <span className="update-date">30 september</span>
@@ -159,11 +159,11 @@ export default function Card() {
                 style={{ paddingLeft: "5px" }}
               >
                 <div className="top-card-1-title">
-                  <h3>ECONOMYsss</h3>
+                  <h3>CONSUMER</h3>
                 </div>
                 <p className="top-card-1-para">
-                  Indian shares snap 5-day rally on weak global cues, post
-                  weekly gain
+                  Exclusive: PE-backed sauce maker Wingreens acquires Lok
+                  Capital-backed cereal maker
                 </p>
                 <div className="updaters">
                   <span className="update-date">30 september</span>
@@ -171,8 +171,35 @@ export default function Card() {
                   <span className="updater-name">Madhurima Nandy</span>
                 </div>
               </div>
-              {/* </div> */}
             </div>
+            <hr style={{ margin: "10px 0px 10px 0px" }} />
+            <div className="d-flex">
+              <div className="top-card-1-img">
+                <img
+                  src="./Imagesss/card-image-4.png"
+                  alt=""
+                  style={{ width: "100%", height: "100%" }}
+                />
+              </div>
+              <div
+                className="top-card-1-containt"
+                style={{ paddingLeft: "5px" }}
+              >
+                <div className="top-card-1-title">
+                  <h3>ECONOMY</h3>
+                </div>
+                <p className="top-card-1-para">
+                  GLOBAL MARKETS-European shares in the red after hawkish Fed
+                  comments
+                </p>
+                <div className="updaters">
+                  <span className="update-date">30 september</span>
+                  <div className="updater-dott"></div>
+                  <span className="updater-name">Madhurima Nandy</span>
+                </div>
+              </div>
+            </div>
+            <hr style={{ margin: "10px 0px 10px 0px" }} />
           </div>
         </div>
         {/* <div></div> */}

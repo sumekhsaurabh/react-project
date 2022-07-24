@@ -4,11 +4,13 @@ import React, { useState, useRef } from "react";
 export default function Header() {
   function openNav() {
     document.getElementById("myNav").style.width = "100%";
+    document.body.overflowY='hidden';
   }
 
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+  
 
 
   return (
@@ -87,7 +89,7 @@ export default function Header() {
         {/* div.mobilie-version */}
         
              
-
+{/* 
         <div className="menubar-outer w-f d-flx-jc-cen">
           <div className=" out w-90">
             <div className="menubar w-90 d-flx-jc-sb">
@@ -193,9 +195,78 @@ export default function Header() {
               </div>
             </div>
           </div>
-        </div> 
+        </div>   */}
 
         {/* mobile-version-end */}
+       <nav className="mobile-version">
+            <ul className='nav-bar'>
+                <li className='logo'><a href='#'><img src='./Imagesss/vccircle.png' /></a></li>
+                <input type='checkbox' id='check'/>
+                <span className="menu">
+                    <div className="upper">
+                        <img src="./Imagesss/vccircle.png" alt="" />
+
+                    </div>
+                    <div className="list">
+                        <div className="nav-border">
+                            <li><a href="">Home</a></li>
+                        </div>
+                        <div className="nav-border" >
+                            
+                            <li><a href="">Sign In</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="" > <img src="./Imagesss/crown.png" alt="" /><span className="subscribe-color">Subscribe</span></a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">Private Equity</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">Venture Capital</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">M&A</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">Industry</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">Stressed Assests</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">Limited Partner</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">Founder</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">About Us</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">Tag Listing</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">Advertise With Us</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">Contact Us</a></li>
+                        </div>
+                        <div className="nav-border">
+                            <li><a href="">VCC Mobile App</a></li>
+                        </div>
+                        <label for="check" className="close-menu"><i className="fas fa-times"></i></label>
+
+
+                    </div>
+       
+
+
+                </span>
+                <label for="check" className="open-menu"><i className="fas fa-bars"></i></label>
+                <span className="subscribe"><img src="./Imagesss/crown.png" alt="" /> subscribe</span>
+            </ul>
+        </nav> 
+
       </div>
     </div>
   );

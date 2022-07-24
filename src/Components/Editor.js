@@ -15,7 +15,10 @@ export default function Editor(props) {
                 <div className="primium-card editor-prim">
                   <button>PRIMIUM</button>
                 </div>
-                <img src={props.img_1} alt="" />
+                <div className="editor-imgi-1">
+
+                <img src={props.img_1} alt="" style={{width:'100%'}}/>
+                </div>
               </div>
               <h3 className="edit-heading">{props.title_2}</h3>
               <p className="edit-para">{props.para_1}</p>

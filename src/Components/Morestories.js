@@ -12,7 +12,7 @@ export default function Morestories(props) {
             <div className="story-left">
               <div className="finnance-section d-flx">
                 <div>
-                <img src="./Imagesss/story-left-1.png" alt="" />
+                <img src="./Imagesss/story-left-1.png" alt="" className="story-image-1" />
                 </div>
                 <div className="finance-content">
                   <h4 className="finance-content-title">finance</h4>
@@ -31,8 +31,11 @@ export default function Morestories(props) {
               </div>
 
               <div className="finnance-section d-flx">
+              <div className="primium-card story-prime-card">
+                  <button>PRIMIUM</button>
+                </div>
                 <div>
-                <img src="./Imagesss/story-left-2.png" alt="" />
+                <img src="./Imagesss/story-left-2.png" alt="" className="story-image-2"  />
                 </div>
                 <div className="finance-content">
                   <h4 className="finance-content-title">CONSUMER</h4>
@@ -52,7 +55,7 @@ export default function Morestories(props) {
 
               <div className="finnance-section d-flx">
                 <div>
-                <img src="./Imagesss/story-left-3.png" alt="" />
+                <img src="./Imagesss/story-left-3.png" alt="" className="story-image-3" />
                 </div>
                 <div className="finance-content">
                   <h4 className="finance-content-title">PEOPLE</h4>
@@ -72,8 +75,11 @@ export default function Morestories(props) {
             </div>
             <div className="story-right">
               <div className="finnance-section d-flx">
+              <div className="primium-card story-prime-card">
+                  <button>PRIMIUM</button>
+                </div>
                 <div>
-                <img src="./Imagesss/story-right-1.png" alt="" />
+                <img src="./Imagesss/story-right-1.png" alt="" className="story-image-4" />
                 </div>
                 <div className="finance-content">
                   <h4 className="finance-content-title">ECONOMY</h4>
@@ -93,7 +99,7 @@ export default function Morestories(props) {
 
               <div className="finnance-section d-flx">
                 <div>
-                <img src="./Imagesss/story-right-2.png" alt="" />
+                <img src="./Imagesss/story-right-2.png" alt="" className="story-image-5" />
                 </div>
                 <div className="finance-content">
                   <h4 className="finance-content-title">TMT</h4>
@@ -113,7 +119,7 @@ export default function Morestories(props) {
 
               <div className="finnance-section d-flx">
                 <div>
-                <img src="./Imagesss/story-right-3.png" alt="" />
+                <img src="./Imagesss/story-right-3.png" alt="" className="story-image-6" />
                 </div>
                 <div className="finance-content">
                   <h4 className="finance-content-title">FINANCE</h4>
