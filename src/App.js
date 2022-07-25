@@ -1,10 +1,9 @@
-
 import './App.css';
-import './Nav.css'
-import Header from './Components/Header'
+import './Nav.css';
+import Header from './Components/Header';
 import Advertisement from './Components/Advertisement';
 import Manufacturing from './Components/Manufacturing';
-import Card from './Components/Card'
+import Card from './Components/Card';
 import Editor from './Components/Editor';
 import TwiterSection from './Components/TwiterSection';
 import AboutCard from "./Components/AboutCard.js";
@@ -19,12 +18,10 @@ import Techcircledata from "./Apis/techCircle";
 import mergersdata  from "./Apis/mergersData";
 import financialdata from "./Apis/financilaData";
 import Morestories from "./Components/Morestories"
-import Footer from './Components/Footer'
+import Footer from './Components/Footer';
 import SmallAdver from './Components/SmallAdver';
 
 function App() {
-
- 
   return (
     <div className="App">
     <Header/>
