@@ -11,7 +11,7 @@ const smallcarddata = [
   },
   {
     id: 2,
-    para: "Kotak Investment Advisors marks to obtain the final close of pre-IPO fund",
+    para: "Kotak bank Investment Advisors marks to obtain the final close of pre-IPO fund",
     image: "./Imagesss/tmt-3.png",
   },
   {
@@ -31,7 +31,7 @@ const smallcarddata = [
   },
   {
     id: 6,
-    para: "Kotak Investment Advisors marks to obtain final close of pre-IPO fund",
+    para: "Kotak bank Investment Advisors marks to obtain final close of pre-IPO fund",
     image: "./Imagesss/tmt-3.png",
   },
   {

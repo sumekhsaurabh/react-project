@@ -19,7 +19,7 @@ export default function Vccircle() {
   return (
     <div>
       <div className="primium-container-body w-f">
-        <div className="main-container w-90">
+        <div className="main-container w-90 main-cont-pad">
           <div className="About-card d-flx-jc-sb">
             <h3 className="limited-partner color">
               VCCircle Premium

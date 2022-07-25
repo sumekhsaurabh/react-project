@@ -142,7 +142,7 @@ export default function Morestories(props) {
       </div>.
       <Advertisement src={'./Imagesss/adver1.png'} style={{width:'80%'}}/>
       {/* lower-section-- */}
-      {/* <div className="more-story-lower">
+      <div className="more-story-lower">
         <div className="more-story w-f d-flx-jc-cen">
           <div className="inner-more-story w-90 d-flx-jc-sb">
             <div className="more-story-content w-90 d-flx-jc-sb">
@@ -259,7 +259,7 @@ export default function Morestories(props) {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
     </>
   );

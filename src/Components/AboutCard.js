@@ -30,7 +30,7 @@ function AboutCard(props) {
             return (
               <div className="item" key={id} style={props.boxSize}>
                 <div className="About-image">
-                <div className="primium-card about-premium"><button>PRIMIUM</button></div>
+                <div className="primium-card about-premium" style={props.primStyle}><button>PRIMIUM</button></div>
                   <img src={item.image} alt="" style={props.imageStyle} />
                 </div>
                 <div className="About-para" style={props.paraStyle}>

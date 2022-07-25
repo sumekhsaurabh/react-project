@@ -62,7 +62,7 @@ export default function Events() {
         <div className="mob-ver d-flx-jc-cen m-20">
           <div className="mob-event d-flx">
             <div className="mob-event-img">
-              <img src="./imagesss/event-1.png" alt="" />
+              <img src="./Imagesss/event-1.png" alt="" />
             </div>
             <div className="mob-content">
               <h4 className="mob-content-title">4 October 2021</h4>
@@ -78,7 +78,7 @@ export default function Events() {
         <div className="mob-ver d-flx-jc-cen m-20">
           <div className="mob-event d-flx">
             <div className="mob-event-img">
-              <img src="./imagesss/event-2.png" alt="" />
+              <img src="./Imagesss/event-2.png" alt="" />
             </div>
             <div className="mob-content">
               <h4 className="mob-content-title">4 October 2021</h4>
@@ -95,7 +95,7 @@ export default function Events() {
         <div className="mob-ver d-flx-jc-cen">
           <div className="mob-event d-flx">
             <div className="mob-event-img">
-              <img src="./imagesss/event-3.png" alt="" />
+              <img src="./Imagesss/event-3.png" alt="" />
             </div>
             <div className="mob-content">
               <h4 className="mob-content-title">4 October 2021</h4>

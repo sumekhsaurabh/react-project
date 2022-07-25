@@ -32,15 +32,15 @@ export default function Manufacturing() {
           />
         </div>
       </div> */}
-      <div className="sittu-oueter w-f d-flx-jc-cen">
-        <div className="sittu-inner w-90 d-flx-jc-sb">
-          <div className="sittu-left">
+      <div className="manufacture-oueter w-f d-flx-jc-cen">
+        <div className="manufacture-inner w-90 d-flx-jc-sb">
+          <div className="manufacture-left">
             <div className="siitu-content">
-              <p className="sittu-title">MENUFACTURING</p>
-              <h2 className="sittu-heading">
+              <p className="manufacture-title">MENUFACTURING</p>
+              <h2 className="manufacture-heading">
                 Warburg Pincus set to acquire majority stake in auto parts maker
               </h2>
-              <p className="sittu-para">
+              <p className="manufacture-para">
                 Private equity firm TPG, which is reportedly heading towards a
                 public listing, said on Thursday it had appointed long-time
                 company executive Todd Sisitsky as president, effective
@@ -54,7 +54,7 @@ export default function Manufacturing() {
               <button id="manufactur-btn">READ MORE</button>
             </div>
           </div>
-          <div className="sittu-right">
+          <div className="manufacture-right">
           <img src="./Imagesss/manufacture.png" alt="" />
         </div>
         </div>

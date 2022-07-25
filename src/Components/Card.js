@@ -89,8 +89,12 @@ export default function Card() {
           </div>
           {/* responsive start */}
           <div className="responses">
-            <div className="d-flex">
-              <div className="top-card-1-img">
+            <div className="d-flex ">
+            
+              <div className="top-card-1-img prime">
+              <div className="primium-card card-prim">
+                  <button>PRIMIUM</button>
+                </div>
                 <img
                   src="./Imagesss/card-image-1.png"
                   alt=""
@@ -147,7 +151,10 @@ export default function Card() {
               <hr style={{ margin: "10px 0px 10px 0px" }} />
             </div>
             <div className="d-flex">
-              <div className="top-card-1-img">
+              <div className="top-card-1-img prime">
+              <div className="primium-card card-prim">
+                  <button>PRIMIUM</button>
+                </div>
                 <img
                   src="./Imagesss/card-image-3.png"
                   alt=""
