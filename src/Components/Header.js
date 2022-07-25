@@ -2,17 +2,13 @@ import React, { useState, useRef } from "react";
 // import "./Nav.css";
 
 export default function Header() {
-  function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-    document.body.overflowY='hidden';
+  function handleChange(event) {
+    if (event.target.checked) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
   }
-
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
-  
-
-
   return (
     <div>
       <div className="header-container w-f d-flx-jc-cen">
@@ -86,187 +82,112 @@ export default function Header() {
           </div>
         </div>
 
-        {/* div.mobilie-version */}
-        
-             
-{/* 
-        <div className="menubar-outer w-f d-flx-jc-cen">
-          <div className=" out w-90">
-            <div className="menubar w-90 d-flx-jc-sb">
-              <div className="menubar-left d-flx-jc-sb">
-                <span
-                  style={{
-                    fontSize: "30px",
-                    cursor: "pointer",
-                    marginTop: "5px",
-                  }}
-                  id="openbtn"
-                  onClick={openNav}
-                >
-                  &#9776;
-                </span>
+        {/* mobile-version-end */}
+        <nav className="mobile-version">
+          <ul className="nav-bar">
+            <li className="logo">
+              <a href="#">
+                <img src="./Imagesss/vccircle.png" />
+              </a>
+            </li>
+            <input type="checkbox" id="check" onChange={handleChange} />
+            <span className="menu">
+              <div className="upper">
                 <img src="./Imagesss/vccircle.png" alt="" />
               </div>
-
-              <div className="menubar-right">
-                <div className="menubar-right-content">
-                  <img
-                    src="./Imagesss/crown.png"
-                    alt=""
-                    className="menubar-right-img"
-                  />{" "}
-                  <span className="menubar-right-text">Subscribe</span>{" "}
+              <div className="list">
+                <div className="nav-border">
+                  <li>
+                    <a href="">Home</a>
+                  </li>
                 </div>
-              </div>
-              <div id="myNav" className="overlay">
-                <div className="border">
-                  {}
-                  <a
-                    href="javascript:void(0)"
-                    className="closebtn"
-                    onClick={closeNav}
-                  >
-                    &times;
-                  </a>
-                  <img
-                    src="./Imagesss/vccircle.png"
-                    alt=""
-                    className="slider-logo"
-                  />
+                <div className="nav-border">
+                  <li>
+                    <a href="">Sign In</a>
+                  </li>
                 </div>
-                <div
-                  className="overlay-content"
-                  style={{ backgroundColor: "white" }}
-                >
-                  <div
-                    style={{
-                      fontSize: "25px",
-                      backgroundColor: "white",
-                      marginTop: "27px",
-                    }}
-                  >
-                    <div className="slider">
+                <div className="nav-border">
+                  <li>
+                    <a href="">
                       {" "}
-                      <a href="">HOME</a>{" "}
-                    </div>
-                    <div className="slider">
-                      {" "}
-                      <a href="">SIGN IN</a>
-                    </div>
-                    <div className="slider">
-                      <a
-                        href=""
-                        style={{ display: "inline-block", color: "#faa405" }}
-                      >
-                        subscribe
-                      </a>{" "}
-                      <img
-                        src="./Imagesss/crown.png"
-                        alt=""
-                        style={{ display: "inline-block" }}
-                      />
-                    </div>
-                    <div className="slider">
-                      <a href="">Private Equity</a>
-                    </div>
-                    <div className="slider">
-                      <a href="">Venture Capital</a>
-                    </div>
-                    <div className="slider">
-                      <a href="">M$A</a>
-                    </div>
-                    <div className="slider">
-                      <a href="">Industry</a>
-                    </div>
-                    <div className="slider">
-                      <a href="">Streaaed Assets</a>
-                    </div>
-                    <div className="slider">
-                      <a href="">Limited partner</a>
-                    </div>
-                    <div className="slider">
-                      <a href="">Founder</a>
-                    </div>
-                    <div className="slider">
-                      <a href="">About Us</a>
-                    </div>
-                  </div>
+                      <img src="./Imagesss/crown.png" alt="" />
+                      <span className="subscribe-color">Subscribe</span>
+                    </a>
+                  </li>
                 </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">Private Equity</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">Venture Capital</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">M&A</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">Industry</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">Stressed Assests</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">Limited Partner</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">Founder</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">About Us</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">Tag Listing</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">Advertise With Us</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">Contact Us</a>
+                  </li>
+                </div>
+                <div className="nav-border">
+                  <li>
+                    <a href="">VCC Mobile App</a>
+                  </li>
+                </div>
+                <label htmlFor="check" className="close-menu">
+                  <i className="fas fa-times"></i>
+                </label>
               </div>
-            </div>
-          </div>
-        </div>   */}
-
-        {/* mobile-version-end */}
-       <nav className="mobile-version">
-            <ul className='nav-bar'>
-                <li className='logo'><a href='#'><img src='./Imagesss/vccircle.png' /></a></li>
-                <input type='checkbox' id='check'/>
-                <span className="menu">
-                    <div className="upper">
-                        <img src="./Imagesss/vccircle.png" alt="" />
-
-                    </div>
-                    <div className="list">
-                        <div className="nav-border">
-                            <li><a href="">Home</a></li>
-                        </div>
-                        <div className="nav-border" >
-                            
-                            <li><a href="">Sign In</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="" > <img src="./Imagesss/crown.png" alt="" /><span className="subscribe-color">Subscribe</span></a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">Private Equity</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">Venture Capital</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">M&A</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">Industry</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">Stressed Assests</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">Limited Partner</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">Founder</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">About Us</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">Tag Listing</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">Advertise With Us</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">Contact Us</a></li>
-                        </div>
-                        <div className="nav-border">
-                            <li><a href="">VCC Mobile App</a></li>
-                        </div>
-                        <label for="check" className="close-menu"><i className="fas fa-times"></i></label>
-
-
-                    </div>
-       
-
-
-                </span>
-                <label for="check" className="open-menu"><i className="fas fa-bars"></i></label>
-                <span className="subscribe"><img src="./Imagesss/crown.png" alt="" /> subscribe</span>
-            </ul>
-        </nav> 
-
+            </span>
+            <label htmlFor="check" className="open-menu">
+              <i className="fas fa-bars"></i>
+            </label>
+            <span className="subscribe">
+              <img src="./Imagesss/crown.png" alt="" /> subscribe
+            </span>
+          </ul>
+        </nav>
       </div>
     </div>
   );

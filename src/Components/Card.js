@@ -1,5 +1,4 @@
 import React from "react";
-// import Data from "./CardApi";
 
 export default function Card() {
   return (
@@ -90,9 +89,8 @@ export default function Card() {
           {/* responsive start */}
           <div className="responses">
             <div className="d-flex ">
-            
               <div className="top-card-1-img prime">
-              <div className="primium-card card-prim">
+                <div className="primium-card card-prim">
                   <button>PRIMIUM</button>
                 </div>
                 <img
@@ -119,7 +117,13 @@ export default function Card() {
                 </div>
               </div>
             </div>
-            <hr style={{ margin: "10px 0px 10px 0px" }} />
+            <hr
+              style={{
+                margin: "10px 0px 10px 0px",
+                height: "2px",
+                backgroundColor: "#c1bdbd",
+              }}
+            />
 
             <div>
               <div className="d-flex">
@@ -148,11 +152,17 @@ export default function Card() {
                   </div>
                 </div>
               </div>
-              <hr style={{ margin: "10px 0px 10px 0px" }} />
+              <hr
+                style={{
+                  margin: "10px 0px 10px 0px",
+                  height: "2px",
+                  backgroundColor: "#c1bdbd",
+                }}
+              />
             </div>
             <div className="d-flex">
               <div className="top-card-1-img prime">
-              <div className="primium-card card-prim">
+                <div className="primium-card card-prim">
                   <button>PRIMIUM</button>
                 </div>
                 <img
@@ -179,7 +189,13 @@ export default function Card() {
                 </div>
               </div>
             </div>
-            <hr style={{ margin: "10px 0px 10px 0px" }} />
+            <hr
+              style={{
+                margin: "10px 0px 10px 0px",
+                height: "2px",
+                backgroundColor: "#c1bdbd",
+              }}
+            />
             <div className="d-flex">
               <div className="top-card-1-img">
                 <img
@@ -206,10 +222,15 @@ export default function Card() {
                 </div>
               </div>
             </div>
-            <hr style={{ margin: "10px 0px 10px 0px" }} />
+            <hr
+              style={{
+                margin: "10px 0px 10px 0px",
+                height: "2px",
+                backgroundColor: "#c1bdbd",
+              }}
+            />
           </div>
         </div>
-        {/* <div></div> */}
       </div>
     </>
   );

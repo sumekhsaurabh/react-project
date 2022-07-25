@@ -1,15 +1,18 @@
-import React, {useState } from "react";
+import React, { useState, useRef } from "react";
 
 export default function Inputbox() {
-  const[data, setData]= useState("")
-  function getdata(e) {
-    e.preventDefault();
+  const inputValue = useRef(null);
+  const [data, setData] = useState("");
+
+  const inputdata = (event) => {
+    setData(event.target.value);
+  };
+
+  const getdata = () => {
     console.log(data);
-    // clearing the values
-    setData("");
-    
-  }
-  
+    inputValue.current.value = "";
+  };
+
   return (
     <div>
       <div className="input-section w-f d-flx-jc-cen">
@@ -25,7 +28,6 @@ export default function Inputbox() {
                   alt=""
                   className="input-envlp"
                 />
-
                 <p className="envlp-para">
                   Get industry update with our daily newsletter <br />{" "}
                   <span className="envlp-para-1">Subscribe Now !</span>
@@ -38,13 +40,17 @@ export default function Inputbox() {
                 style={{ width: "100%" }}
               >
                 <input
+                  ref={inputValue}
                   type="text"
                   name="input"
                   id="input"
                   className="input-field"
-                  placeholder="Email  Address" onChange={(e) => setData(e.target.value)}              />
-
-                <button className="sign-btn" onClick={getdata}>SIGN UP</button>
+                  placeholder="Email  Address"
+                  onChange={inputdata}
+                />
+                <button className="sign-btn" onClick={getdata}>
+                  SIGN UP
+                </button>
               </div>
             </div>
           </div>

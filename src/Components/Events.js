@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import Carddatas from "./eventsData.js";
+import Carddatas from "../Apis/eventsData.jsx";
 
 export default function Events() {
   let [data, setData] = useState([]);
@@ -58,7 +58,6 @@ export default function Events() {
             </button>
           </div>
         </div>
-
         <div className="mob-ver d-flx-jc-cen m-20">
           <div className="mob-event d-flx">
             <div className="mob-event-img">
@@ -83,7 +82,8 @@ export default function Events() {
             <div className="mob-content">
               <h4 className="mob-content-title">4 October 2021</h4>
               <h2 className="mob-content-heading">
-              Cloud- The Digital <br />Infrastructure
+                Cloud- The Digital <br />
+                Infrastructure
               </h2>
               <p className="mob-content-para">
                 Hyatt Regency, New Delhi | New Hybrid Masterclass
@@ -91,7 +91,6 @@ export default function Events() {
             </div>
           </div>
         </div>
-
         <div className="mob-ver d-flx-jc-cen">
           <div className="mob-event d-flx">
             <div className="mob-event-img">
@@ -100,7 +99,8 @@ export default function Events() {
             <div className="mob-content">
               <h4 className="mob-content-title">4 October 2021</h4>
               <h2 className="mob-content-heading">
-              SEMINAR - FUTURE OF <br />TRUST
+                SEMINAR - FUTURE OF <br />
+                TRUST
               </h2>
               <p className="mob-content-para">
                 Hyatt Regency, New Delhi | New Hybrid Masterclass

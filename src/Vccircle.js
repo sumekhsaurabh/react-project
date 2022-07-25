@@ -1,14 +1,13 @@
 import { useState, useRef } from "react";
-import datas from "./vccircleData";
+import datas from "./Apis/vccircleData";
 
 export default function Vccircle() {
   let [data, setData] = useState([]);
   const carousel = useRef(null);
-     data = datas;
+  data = datas;
   const handleLeftClick = (e) => {
     e.preventDefault();
     carousel.current.scrollLeft -= carousel.current.offsetWidth;
-    
   };
   const handleRightClick = (e) => {
     e.preventDefault();
@@ -33,7 +32,9 @@ export default function Vccircle() {
               return (
                 <div className="primium-item" key={id}>
                   <div className="primiums-image">
-                  <div className="primium-card primium-prime"><button>PREMIUM</button></div>
+                    <div className="primium-card primium-prime">
+                      <button>PREMIUM</button>
+                    </div>
                     <img src={item.image} alt="" />
                   </div>
                   <div className="primiums-About-title">{title}</div>
@@ -56,15 +57,22 @@ export default function Vccircle() {
           </div>
           <div className="btns">
             <button onClick={handleLeftClick} id="btns-1" className="dis-none">
-              <img src="./Imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style" />
+              <img
+                src="./Imagesss/right-arrow.png"
+                alt="Scroll Left"
+                className="crousal-btn-style"
+              />
             </button>
             <button onClick={handleRightClick} id="btns-2" className="dis-none">
-              <img src="./Imagesss/right-arrow.png" alt="Scroll Left" className="crousal-btn-style" />
+              <img
+                src="./Imagesss/right-arrow.png"
+                alt="Scroll Left"
+                className="crousal-btn-style"
+              />
             </button>
           </div>
         </div>
       </div>
-        </div>
-    
+    </div>
   );
 }

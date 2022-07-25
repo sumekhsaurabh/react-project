@@ -22,7 +22,6 @@ export default function TwiterSection() {
             </div>
           </div>
           <div className="twit-box-3">
-            {/* <SmallAdver /> */}
             <div className="">
                 <div className="editor-smallAdver d-flx-cen">
                   <div>

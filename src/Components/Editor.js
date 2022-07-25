@@ -1,5 +1,4 @@
 import React from "react";
-// import SmallAdver from "./Components/SmallAdver";
 
 export default function Editor(props) {
   return (
@@ -16,8 +15,7 @@ export default function Editor(props) {
                   <button>PRIMIUM</button>
                 </div>
                 <div className="editor-imgi-1">
-
-                <img src={props.img_1} alt="" style={{width:'100%'}}/>
+                  <img src={props.img_1} alt="" style={{ width: "100%" }} />
                 </div>
               </div>
               <h3 className="edit-heading">{props.title_2}</h3>
@@ -75,7 +73,6 @@ export default function Editor(props) {
                 </div>
               </div>
             </div>
-
             <div className="editor-3">
               <div className="">
                 <div className="editor-smallAdver d-flx-cen">
@@ -89,8 +86,6 @@ export default function Editor(props) {
                   </div>
                 </div>
               </div>
-
-              {/* <SmallAdver /> */}
             </div>
           </div>
         </div>

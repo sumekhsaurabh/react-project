@@ -18,7 +18,7 @@ export default function Vcc() {
                     height: "100%",
                     borderRadius: "14px",
                   }}
-                  src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" 
+                  src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
                 ></iframe>
               </div>
               <div className="vcc-box-2s">
