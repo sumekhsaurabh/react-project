@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { FiChevronRight } from "react-icons/fi";
 import Carddatas from "../Apis/eventsData.jsx";
 
 export default function Events() {
@@ -21,7 +22,10 @@ export default function Events() {
         <div className="destop-v">
           <div className="About-card d-flx-jc-sb">
             <h3 className="limited-partner">Upcoming Events</h3>
-            <div className="About-view-more">View more</div>
+            <div className="About-view-more">View more
+            <span >
+              <FiChevronRight className="arrow" style={{marginBottom:"-3px"}} />
+            </span>{" "}</div>
           </div>
           <div className="carousel" ref={carousel}>
             {Carddatas.map((item) => {

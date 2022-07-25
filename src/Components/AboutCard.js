@@ -19,15 +19,15 @@ function AboutCard(props) {
       <div className="main-container w-90">
         <div className="About-card d-flx-jc-sb">
           <div>
-          <h3 className="limited-partner ">{props.heading}</h3>
-          <h3 className="limited-partner merger-full ">{props.header}</h3>
-          <h3 className="limited-partner merger-short">{props.smallheading}</h3>
+          <span className="limited-partner ">{props.heading}</span>
+          <span className="limited-partner merger-full ">{props.header}</span>
+          <span className="limited-partner merger-short">{props.smallheading}</span>
           </div>
           <div className="About-view-more">
             View more{" "}
-            <span>
               {" "}
-              <FiChevronRight className="arrow" />
+              <span >
+              <FiChevronRight className="arrow" style={{marginBottom:"-3px", marginLeft:'-3px'}} />
             </span>{" "}
           </div>
         </div>
