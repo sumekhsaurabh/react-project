@@ -18,8 +18,11 @@ function AboutCard(props) {
     <div className="container-body w-f">
       <div className="main-container w-90">
         <div className="About-card d-flx-jc-sb">
-          <h3 className="limited-partner merger-full">{props.heading}</h3>
-          <h3 className="limited-partner merger-short">M$A</h3>
+          <div>
+          <h3 className="limited-partner ">{props.heading}</h3>
+          <h3 className="limited-partner merger-full ">{props.header}</h3>
+          <h3 className="limited-partner merger-short">{props.smallheading}</h3>
+          </div>
           <div className="About-view-more">
             View more{" "}
             <span>
