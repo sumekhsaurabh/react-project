@@ -7,7 +7,7 @@ export default function Manufacturing() {
         <div className="manufacture-inner w-90 d-flx-jc-sb">
           <div className="manufacture-left">
             <div className="siitu-content">
-              <p className="manufacture-title">MENUFACTURING</p>
+              <p className="manufacture-title">MANUFACTURING</p>
               <h2 className="manufacture-heading">
                 Warburg Pincus set to acquire majority stake in auto parts maker
               </h2>

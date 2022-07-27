@@ -44,7 +44,7 @@ export default function Editor(props) {
                   </div>
                 </div>
               </div>
-              <div className="editer-2-box-1 d-flx">
+              <div className="editer-2-box-1 d-flx" style={{marginTop :'9px'}}>
                 <div>
                   <img src={props.img_3} alt="" />
                 </div>
@@ -58,7 +58,7 @@ export default function Editor(props) {
                   </div>
                 </div>
               </div>
-              <div className="editer-2-box-1 d-flx third">
+              <div className="editer-2-box-1 d-flx third" style={{marginTop :'9px'}}>
                 <div>
                   <img src={props.img_4} alt="" />
                 </div>

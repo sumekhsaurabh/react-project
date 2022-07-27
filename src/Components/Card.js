@@ -21,7 +21,7 @@ export default function Card() {
                     Indian shares snap 5-day rally on weak global cues, post
                     weekly gain
                   </p>
-                  <div className="update">
+                  <div className="update card-update">
                     <span className="update-date">30 september</span>
                     <div className="updater-dott"></div>
                     <span className="updater-name">Madhurima Nandy</span>
@@ -42,7 +42,7 @@ export default function Card() {
               <p className="top-box-para">
                 Paytm to shut Canada B2C app amid eroding market capitalisation
               </p>
-              <div className="update">
+              <div className="update card-update">
                 <span className="update-date">30 september</span>
                 <div className="updater-dott"></div>
                 <span className="updater-name">Madhurima Nandy</span>
@@ -59,7 +59,7 @@ export default function Card() {
                 Exclusive: PE-backed sauce maker Wingreens acquires Lok
                 Capital-backed cereal maker
               </p>
-              <div className="update">
+              <div className="update card-update">
                 <span className="update-date">30 september</span>
                 <div className="updater-dott"></div>
                 <span className="updater-name">Madhurima Nandy</span>
@@ -79,7 +79,7 @@ export default function Card() {
                 GLOBAL MARKETS-European shares in the red after hawkish Fed
                 comments
               </p>
-              <div className="update">
+              <div className="update card-update">
                 <span className="update-date">30 september</span>
                 <div className="updater-dott"></div>
                 <span className="updater-name">Madhurima Nandy</span>

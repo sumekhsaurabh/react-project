@@ -116,7 +116,7 @@ export default function Morestories(props) {
                 <div className="finnance-section d-flx">
                   <div>
                     <img
-                      src="./Imagesss/story-right-2.png"
+                      src="./Imagesss/kotak1.png"
                       alt=""
                       className="story-image-5"
                     />
@@ -138,6 +138,9 @@ export default function Morestories(props) {
                 </div>
 
                 <div className="finnance-section d-flx">
+                  <div className="primium-card story-prime-card">
+                    <button>PRIMIUM</button>
+                  </div>
                   <div>
                     <img
                       src="./Imagesss/story-right-3.png"
@@ -193,6 +196,9 @@ export default function Morestories(props) {
                   </div>
 
                   <div className="finnance-section d-flx">
+                    <div className="primium-card story-prime-card">
+                      <button>PRIMIUM</button>
+                    </div>
                     <img src="./Imagesss/story-b-left-2.png" alt="" />
                     <div className="finance-content">
                       <h4 className="finance-content-title">ECONOMY</h4>
@@ -213,6 +219,9 @@ export default function Morestories(props) {
                   </div>
 
                   <div className="finnance-section d-flx">
+                    <div className="primium-card story-prime-card">
+                      <button>PRIMIUM</button>
+                    </div>
                     <img src="./Imagesss/story-b-left-3.png" alt="" />
                     <div className="finance-content">
                       <h4 className="finance-content-title">CONSUMER</h4>
@@ -234,6 +243,9 @@ export default function Morestories(props) {
                 </div>
                 <div className="story-right">
                   <div className="finnance-section d-flx">
+                    <div className="primium-card story-prime-card">
+                      <button>PRIMIUM</button>
+                    </div>
                     <img src="./Imagesss/story-b-right-1.png" alt="" />
                     <div className="finance-content">
                       <h4 className="finance-content-title">INFRASTRUCTURE</h4>

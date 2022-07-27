@@ -417,7 +417,7 @@ html {
 }
 
 .editer-2-box-1 {
-  height: 108px;
+  height: 104px;
   border-color: #E3E3E3;
   border-style: none none solid none;
   margin-top: 5px;
@@ -833,7 +833,7 @@ html {
   display: none;
 }
 .event-image{
-  padding: 7px;
+  padding: 8px;
 }
 
 /* vccc section-- */
@@ -1211,11 +1211,14 @@ html {
   margin-top: 40px ! important;
   padding-left: 20px;
 }
+.manufacture-right img{
+  width: 100%;
+}
 
 .manufacture-left {
   width: 50%;
   margin-top: 30px !important;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
  .manufacture-title{
@@ -1263,11 +1266,11 @@ html {
   }
 
   .manufacture-right {
-    margin: auto;
+    /* margin: auto; */
   }
 
   .manufacture-left {
-    margin: auto;
+    /* margin: auto; */
     width: 40%;
   }
 }
@@ -1347,6 +1350,9 @@ html {
   }
   .manufacture-right {
     margin: auto;
+  }
+  .card-update{
+    margin-top: 5px;
   }
   
   .nav-left {
@@ -1552,11 +1558,13 @@ html {
   .manufacture-right {
     margin: auto;
     width: 100%;
+    padding-left: 0px;
   }
 
   .manufacture-left {
     width: 100%;
     height: auto;
+    padding-left: 0px;
   }
   .big-card{
     display: none;
@@ -1789,11 +1797,13 @@ html {
   .manufacture-left {
     width: 100%;
     height: auto;
+    padding-left: 20px;
 
   }
 
   .manufacture-right img {
-    width: 96%;
+    width: 95%;
+    margin-right: 20px;
   }
   .top-card-1-img{
     width: 120px;

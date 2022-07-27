@@ -12,14 +12,19 @@ export default function Vcc() {
             </div>
             <div className="vcc-content d-flx-jc-sb">
               <div className="vcc-box-1">
-                <iframe
+                {/* <iframe
                   style={{
                     width: "100%",
                     height: "100%",
                     borderRadius: "14px",
                   }}
                   src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
-                ></iframe>
+                ></iframe> */}
+                <iframe style={{
+                    width: "100%",
+                    height: "100%",
+                    borderRadius: "14px",
+                  }} src="https://www.youtube.com/embed/35npVaFGHMY" title="Welcome to India ! [CINEMATIC TRAVEL FILM]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <div className="vcc-box-2s">
                 <h4 className="vcc-box-2-heading">HEALTHCARE</h4>
